@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Login</title>
+</head>
+<body>
+    <nav class="navbar">
+        <!-- Navigation bar -->
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="login.html" class="nav-link active">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Homepage</a>
+                </li>
+                <li class="nav-item">
+                    <a href="register.php" class="nav-link">Register</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Login form -->
+    <form action="submit-login.php" method="post">
+        <h2>Login</h2>
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
